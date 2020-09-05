@@ -4,4 +4,7 @@ class UserController < ApplicationController
 
   def signin
   end
+
+  def user
+  end
 end
