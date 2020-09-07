@@ -1,7 +1,44 @@
-footer{
-  width: 100%;
-  color:#fff ;
-  padding: 15px;
+.language {
+  display: flex;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;          /* Safari etc. */
+  -ms-flex-wrap    : wrap;          /* IE10        */
+  flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.language-item {
+  cursor: pointer;
+  width: 240px;
+  margin: 15px;
+  background: #f9f9f9;
+  text-align:center;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  border-radius: 3px;
+}
+
+.language-name {
+  margin: 0 auto;
   text-align: center;
-  background-color:rgb(50, 50, 50);
+  padding: 15px;
+  font-weight: bold;
+}
+
+.language-image {
+  margin: 0 auto;
+  height: auto;
+  max-width: 200px;
+  width: 20vw;
+  padding: 10px;
+}
+
+.language-introduction{
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.card{
+  cursor: pointer;
 }
